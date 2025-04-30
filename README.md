@@ -6,31 +6,27 @@ This is a Python-based tool that automatically checks image quality based on:
 
 It supports batch processing of all `.jpg` and `.png` files inside a folder.
 
-## ✅ Features
+## Features
 - Detects blurry images using Laplacian variance
 - Flags underexposed and overexposed images
 - Skips non-image files
 - Saves:
-  - 📄 A full batch report: `batch_quality_report.json`
-  - 📄 One individual report per image in `/reports/`
+  - A full batch report: `batch_quality_report.json`
+  - One individual report per image in `/reports/` folder
 
-## 🗂 Folder Structure
+## How to Use
+1. Add images (`.jpg`, `.png`) to the `images/` folder
+2. Run the script:
+   ```bash
+   python image_checker.py
 
-ImageQualityChecker/ 
-├── images/ # Place images here 
-├── reports/ # Auto-created for individual results 
-├── image_checker.py # Main script 
-├── batch_quality_report.json
-
-# Full summary ├── README.md
-
-## 🛠 Technologies
+## Technologies
 - Python 3.10+
 - OpenCV
 - NumPy
 - JSON
 
-## 🧪 Example Output
+## Example Output
 
 ```json
 {
