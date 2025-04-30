@@ -1,0 +1,8 @@
+{
+    "image_path": "images\\example.jpg",
+    "is_blurry": false,
+    "blur_score": 100.82528105391084,
+    "exposure_status": "Good",
+    "brightness": 131.49922796758517,
+    "quality": "Good"
+}

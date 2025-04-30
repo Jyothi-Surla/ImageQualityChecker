@@ -1,0 +1,34 @@
+[
+    {
+        "image_path": "images\\example.jpg",
+        "is_blurry": false,
+        "blur_score": 100.82528105391084,
+        "exposure_status": "Good",
+        "brightness": 131.49922796758517,
+        "quality": "Good"
+    },
+    {
+        "image_path": "images\\Sample1.jpg",
+        "is_blurry": true,
+        "blur_score": 54.13492925103243,
+        "exposure_status": "Good",
+        "brightness": 174.95317823129253,
+        "quality": "Low"
+    },
+    {
+        "image_path": "images\\sample1_blurry.jpg",
+        "is_blurry": true,
+        "blur_score": 1.7557918366884164,
+        "exposure_status": "Good",
+        "brightness": 174.94657959183672,
+        "quality": "Low"
+    },
+    {
+        "image_path": "images\\sample2.jpg",
+        "is_blurry": true,
+        "blur_score": 19.78595354955146,
+        "exposure_status": "Good",
+        "brightness": 174.954756293519,
+        "quality": "Low"
+    }
+]
